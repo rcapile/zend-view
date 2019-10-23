@@ -46,7 +46,7 @@ to use in the element.
 >
 > ```php
 > // jquery template
-> $template = '<div class="book">{{:title}}</div>';
+> $template = '&lt;div class="book">{{:title}}&lt;/div>';
 >
 > $this->headScript()->appendScript(
 >     $template,
